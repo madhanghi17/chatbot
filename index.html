@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Chatbot</title>
+  <style>
+    body { font-family: Arial; background: #eef; padding: 20px; }
+    #box { width: 500px; margin: auto; background: white; padding: 15px; border-radius: 10px; }
+    #chat { height: 350px; overflow-y: auto; background: #f7f7f7; padding: 10px; border-radius: 8px; }
+    .msg { margin: 10px 0; }
+    .user { text-align: right; font-weight: bold; }
+    .bot { text-align: left; color: blue; }
+  </style>
+</head>
+<body>
+  <div id="box">
+    <h2>Chatbot App</h2>
+    <div id="chat"></div>
+    
+    <input id="userInput" placeholder="Ask something..." style="width:75%;padding:8px;">
+    <button onclick="sendMsg()">Send</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
